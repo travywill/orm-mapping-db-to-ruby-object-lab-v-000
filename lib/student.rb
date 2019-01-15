@@ -91,7 +91,7 @@ class Student
   end
 
   def self.first_X_students_in_grade_10(number_of_students)
-    number_of_students = number_of_students.to_i
+    @number_of_students = number_of_students.to_i
 
     sql = <<-SQL
       SELECT *
