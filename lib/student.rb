@@ -6,6 +6,9 @@ class Student
     #@name = name
     #@grade = grade
   #end
+  def id
+    @id
+  end
 
   def save
     sql = <<-SQL
